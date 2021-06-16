@@ -1,0 +1,10 @@
+.percentages__container {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.poll__subtitle {
+  font-size: 13px;
+}

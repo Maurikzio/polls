@@ -1,0 +1,18 @@
+.header__navbar {
+  background-color: "#fff";
+  background-image: linear-gradient(0deg, #D2D2D2 0%, #97D9E1 100%);
+  box-shadow: "0 0 6px 0 rgba(0, 0, 0, 0.3)"
+}
+
+.navbar__container a{
+  color: rgba(0, 0, 0, 0.55);
+}
+.navbar__container a:hover {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.user__name {
+  color: black;
+  font-weight: 400;
+  margin-left: auto;
+}

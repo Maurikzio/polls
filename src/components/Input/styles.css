@@ -1,0 +1,15 @@
+.input__container {
+  /* background-color: orange; */
+  display: flex;
+  padding: 10px 0px;
+}
+
+.btn__remove {
+  padding: 5px;
+}
+
+.btn__remove span {
+  color: red;
+  font-weight: 800;
+  cursor: pointer;
+}
