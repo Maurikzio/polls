@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Getting Started with Super-Poll App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Super Poll is a small app where you can create a poll and share the link to other users, so they could be able to participate in the voting process of your poll.
 
-## Available Scripts
+## Instructions/Download
+1-Clone the project on your machine with the command: git clone https://github.com/Maurikzio/polls.git
 
-In the project directory, you can run:
+2-Access to the project directory and run in the terminal: 'npm install' to install all the packages needed for the project.
 
-### `yarn start`
+3-Run the command in the terminal: npm run start.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Functionality and Pages
+Super-Poll is using the localstorage, in local storage will be 2 users. You can choose any of those users for creating the Poll and share its link. 
 
-### `yarn test`
+On the Home page you will see a form where you will be able to create a Poll, you will need to insert the Poll question, and the options. 
+Automatically while you are creating your Poll in the rigth side you will see a preview of it, so you can have a look about how it gonna look. You will beabor to create as much choices you want, when you are writing your last choice automatically a new one field will be created for you and of course you can remove this new field cliking on the 'X' in the right side of the field.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When you are done with the title and options you will need to save your poll clicking on the save button.
 
-### `yarn build`
+On the page My Polls you will be able to see your polls, there are info about the polls you have created like the number of votes and the percentage of each of the options selected/voted. Also you will see the link of the Poll you can selected the link and copy it, but I recommend you to click on the Copy poll link button which copies the link in the clippboard and make our lifes easy.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+With the link copied you can open and test it openning it in a new tab and vote your desired option, if you voted already, the vote button will be disabled.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+On the page All Polls is like the My Polls page, but in this case you will be able to see all the polls created by all the users, the copy and voting procedure is the same as on the My Polls page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We can swtich the users for creating and sharing the poll links, you just need to click on Users it is located in the topbar nest to All Polls. When you select one of the users the most right part of the top you will be able to see the selected user.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Enjoy it :)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
